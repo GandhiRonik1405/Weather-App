@@ -37,7 +37,7 @@ const getInfo = async(event) => {
 
             } else if (tempMood == "Clouds") {
             temp_status.innerHTML =
-                "<i class='fa-regular fa-cloud' style='color: #f1f2f6;'></i>";
+                "<i class='fa-solid fa-cloud' style='color:#0097e6;'></i>";
 
             } else if (tempMood == "Rain") {
             temp_status.innerHTML =
@@ -45,7 +45,7 @@ const getInfo = async(event) => {
 
             } else {
             temp_status.innerHTML =
-                "<i class='fa fa-cloud' style='color:#f1f2f6;'></i>";
+                "<i class='fa fa-cloud' style='color:#0097e6;'></i>";
             }
             datahide.classList.remove('data_hide');
             cityVal = "";
